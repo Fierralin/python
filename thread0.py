@@ -8,9 +8,9 @@ thr = threading.Thread(target = edit__, args = (val,))
 thr.start()
 thr.join(3)
 
-print val[0]
+print(val[0])
 if (val[0] == 1):
-	kaka = raw_input("flow talbe: ")
-	print kaka
+	kaka = input("flow talbe: ")
+	print(kaka)
 else:
-	print "nothing"
+	print("nothing")

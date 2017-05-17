@@ -2,8 +2,8 @@ def func(aaa, bbb):
 	def fun(hand):
 		if 'call' not in dir(hand):
 			hand.call = {}
-			print "####", aaa, "==="
+			print("####", aaa, "===")
 		else:
-			print "$$$$", bbb, "---"
+			print("$$$$", bbb, "---")
 		return hand
 	return fun

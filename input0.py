@@ -1,6 +1,6 @@
-a = raw_input("input: ")
+a = input("input: ")
 
-print a
+print(a)
 
 b = input("input: ")
-print b
+print(b)

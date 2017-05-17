@@ -1,13 +1,13 @@
-import func
-from func import func
+#import func
+from decora0.func import func
 
 tmpa = "yes"
 tmpb = "nay"
 @func(tmpa, tmpb)
 def setset():
-	print "setset"
-	print "nay\n"
+	print("setset")
+	print("nay\n")
 
-print "starting..."
+print("starting...")
 setset()
 setset()

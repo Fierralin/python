@@ -1,4 +1,6 @@
-import fun3
-from fun3 import foo
-a = "abc"
+from fun3 import *
+
+def a(val):
+    pass
+
 foo(a)

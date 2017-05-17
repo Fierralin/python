@@ -4,7 +4,7 @@ class ABC:
 		self.b = 1
 		self.c = 2
 	def printf(self):
-		print "a:", self.a, " b:", self.b, " c:", self.c
+		print("a:", self.a, " b:", self.b, " c:", self.c)
 
 aaa = ABC()
 bbb = aaa

@@ -3,7 +3,7 @@ class claa:
 	def __init__(self):
 		self.aaa = 100
 	def foo(self):
-		print self.aaa
+		print(self.aaa)
 
 class clab(claa):
 	def __init__(self):
@@ -13,6 +13,6 @@ class clab(claa):
 		# print super(clab, self).aaa
 		#super(clab, self).foo()
 		claa.foo(self)
-		print "dddd"
+		print("dddd")
 c = clab()
 c.foo1()

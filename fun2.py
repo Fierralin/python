@@ -1,11 +1,11 @@
 def foo(kkk):
-	print "alpa"
+	print("alpa")
 	kkk()
 	#return True
 	return kkk
 @foo
 def kkk():
-	print "beta"
+	print("beta")
 
 #foo()
 kkk()

@@ -1,11 +1,12 @@
 def foo(tmp):
 	#print "foo"
-	a = tmp.__name__ + " return"
+	a = "tmp return"
 	tmp(a)
 	return tmp
+
 @foo
 def fpp(a = ""):
-	print a + " _fpp"
+	print(a + " _fpp")
 	return a + " _fpp"
 
 

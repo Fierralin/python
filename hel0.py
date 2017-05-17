@@ -4,4 +4,4 @@ class aaa:
 		self.b0 = "b"
 
 c = aaa()
-print c
+print(c)

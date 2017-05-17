@@ -6,12 +6,12 @@ root = Tk()
 
 def cacl(input_str):
     if "x" in input_str:
-    	ret = input_str.split("x")
+        ret = input_str.split("x")
     return int(ret[0]) * int(ret[1])
 def callback(n):
-    print n
+    print(n)
 def callback1(n):
-    print n
+    print(n)
 class App:
     def __init__(self, master):
         frame1 = Frame(master)
@@ -33,11 +33,11 @@ class App:
         Button(frame, text="*",command=lambda: callback1("*") ).grid(row=4,column=1)
         Button(frame, text="/",command=lambda: callback1("/") ).grid(row=4,column=2)
         Button(frame, text="=", command=self.say_hi).grid(row=4,column=0)
-        w = Label(frame1,text="输入结果")
+        w = Label(frame1,text="insert")
         w.pack()
         self.e = Entry(frame1)
         self.e.pack(padx=5)
-        w1 = Label(frame1,text="计算结果")
+        w1 = Label(frame1,text="output")
         w1.pack()
         v = StringVar()
         e1 = Entry(frame1, textvariable=v)
@@ -45,7 +45,7 @@ class App:
         self.v = v
         e1.pack()
     def say_hi(self):
-        print "hi there, everyone!",self.e.get()
+        print("hi there, everyone!",self.e.get())
         input_str = self.e.get()
         self.v.set(cacl(input_str))
 

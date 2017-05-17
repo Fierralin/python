@@ -6,10 +6,10 @@ class Man:
 		self.age = age
 		self.__weight = weight
 	def show(self):
-		print self.name, "'s age: ", self.age
+		print(self.name, "'s age: ", self.age)
 		self.hair = 12
 	def show2(self):
-		print self.__weight
+		print(self.__weight)
 
 tom = Man()
 ace = Man("Ace", "25", "55")

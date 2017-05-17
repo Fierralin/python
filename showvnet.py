@@ -33,8 +33,8 @@ if __name__ == "__main__":
     mac_port = get_mac_port_map(mac_vnet)
     vnet_port = get_vnet_port_map(mac_port, mac_vnet)
 
-    print mac_vnet
-    print mac_port
-    print vnet_port
+    print(mac_vnet)
+    print(mac_port)
+    print(vnet_port)
 
 
